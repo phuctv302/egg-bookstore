@@ -1,0 +1,231 @@
+extend base
+
+mixin bookCardDetail(slug, image, name, author, price, des)
+  .card__detail.card__detail--big.d-flex.align-items-center
+    a(href=`/books/book/${slug}`)
+      img.card__img.book-img(src=`img/books/${image}` alt=name)
+    .card__content
+      h5.card__title= name
+      p.card__author Tác giả: #{author}
+      h4.card__price.text-green #{price} đ
+
+      p.card__description= `${des.length > 100 ? `${des.substring(0, 90)}...` : des}`
+      .card__item.d-flex
+        a.card__item--cart(href='#')
+          i.fas.fa-shopping-cart.text-green
+        a.card__item--search.text-green(href='#')
+          i.fas.fa-search
+
+block content
+  main
+    .main
+      .main__container
+        .main__head__intro.bg-light
+          .main__head__intro__container.container
+            .main__head__intro__content.d-flex.justify-content-between.align-items-center
+              .main__logo.d-flex.justify-content-between.align-items-center
+                img.main__logo--img(src='img/logo-green-round.png' alt='Bookshop logo')
+                .main__logo--content.d-flex.flex-column
+                  h1.main__logo--title
+                    span.text-green Book
+                    | shop
+                  p.main__logo--description Thế giới sách của bạn
+              nav.main__nav.d-flex
+                a(href='#')
+                  h5 Trang chủ
+                a(href='#')
+                  h5 Sản phẩm
+                a(href='#')
+                  h5 Giới thiệu
+                a(href='#')
+                  h5 Tin tức
+                a(href='#')
+                  h5 Liên hệ
+        .main__head__bar.bg-light
+          .main__head__bar__container.container
+            .main__head__bar__content
+              .row
+                .main__head__bar--category-menu.col-7.d-flex.align-items-center
+                  i.fas.fa-bars
+                  h4 Danh mục sách
+                form.main__head__bar--search-form.col-3.d-flex.align-items-center
+                  label(for='seach-book')
+                    i.fas.fa-search
+                  input(type='text' placeholder='Tìm kiếm sách')
+                .main__head__bar--cart.col-2.d-flex.justify-content-center.align-items-center
+                  i.fas.fa-shopping-cart
+                  p Giỏ hàng: 0
+
+        section#introduction
+          .section__container.container
+            .row
+              .image-cover-slide.col-8
+                #carouselExampleControls.carousel.slide(data-bs-ride='carousel')
+                  .carousel-inner
+                    .carousel-item.active
+                      img.d-block.w-100(src='img/covers/img-cover-1.jpg' alt='...')
+                    .carousel-item
+                      img.d-block.w-100(src='img/covers/img-cover-2.jpg' alt='...')
+                    .carousel-item
+                      img.d-block.w-100(src='img/covers/img-cover-3.jpg' alt='...')
+                  button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='prev')
+                    span.carousel-control-prev-icon(aria-hidden='true')
+                    span.visually-hidden Previous
+                  button.carousel-control-next(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='next')
+                    span.carousel-control-next-icon(aria-hidden='true')
+                    span.visually-hidden Next
+              .book-discount.col-4
+                a(href=`/books/book/${mostFamousBook.slug}`)
+                  img.book-img(src=`img/books/${mostFamousBook.image}` alt=mostFamousBook.name)
+
+        section#features
+          .section__container.container
+            .cards__container.d-flex.justify-content-between.align-items-center
+              .card__features.d-flex.flex-column.align-items-center
+                .feature-img-container.round
+                  i.fas.fa-truck.text-green
+                h5.feature-title.text-green.text-center.text-uppercase
+                  | Vận chuyển
+                p.feature-description.text-center
+                  | Giao hàng miễn phí với đơn hàng từ 120.000 đ trên cả nước
+              .card__features.d-flex.flex-column.align-items-center
+                .feature-img-container.round
+                  i.fas.fa-book.text-green
+                h5.feature-title.text-green.text-center.text-uppercase
+                  | 80.000 tựa sách
+                p.feature-description.text-center
+                  | Giao hàng miễn phí với đơn hàng từ 120.000 đ trên cả nước
+              .card__features.d-flex.flex-column.align-items-center
+                .feature-img-container.round
+                  i.fas.fa-gift.text-green
+                h5.feature-title.text-green.text-center.text-uppercase
+                  | Gói quà
+                p.feature-description.text-center
+                  | Bọc sách miễn phí khi bạn muốn gửi tặng người thân, bạn bè
+
+        //- SACH MOI PHAT HANH
+        section#new-books
+          .section__container.container
+            h3.section__title.text-center.text-uppercase
+              | Sách mới phát hành
+            .section__content
+              .card__container
+
+                .d-flex.justify-content-between.align-items-center
+                  - const des1 = newBooks[0].description
+                  +bookCardDetail(newBooks[0].slug, newBooks[0].image, newBooks[0].name, newBooks[0].author, newBooks[0].price, des1)
+
+                  .card__detail.card__detail--small
+                    a(href=`/books/book/${newBooks[1].slug}`)
+                      img.card__img.book-img(src=`img/books/${newBooks[1].image}` alt=newBooks[1].name)
+                  .card__detail.card__detail--small
+                    a(href=`/books/book/${newBooks[2].slug}`)
+                      img.card__img.book-img(src=`img/books/${newBooks[2].image}` alt=newBooks[2].name)
+                  .card__detail.card__detail--small
+                    a(href=`/books/book/${newBooks[3].slug}`)
+                      img.card__img.book-img(src=`img/books/${newBooks[3].image}` alt=newBooks[3].name)
+
+                .d-flex.justify-content-between.align-items-center
+
+                  -const des2 = newBooks[4].description
+                  +bookCardDetail(newBooks[4].slug, newBooks[4].image, newBooks[4].name, newBooks[4].author, newBooks[4].price, des2)
+
+                  .card__detail.card__detail--small 
+                    a(href=`/books/book/${newBooks[5].slug}`)
+                      img.card__img.book-img(src=`img/books/${newBooks[5].image}` alt=newBooks[5].name)
+                  .card__detail.card__detail--small 
+                    a(href=`/books/book/${newBooks[6].slug}`)
+                      img.card__img.book-img(src=`img/books/${newBooks[6].image}` alt=newBooks[6].name)
+                  .card__detail.card__detail--small 
+                    a(href=`/books/book/${newBooks[7].slug}`)
+                      img.card__img.book-img(src=`img/books/${newBooks[7].image}` alt=newBooks[7].name)
+
+        //- TIEU THUYET BAN CHAY
+        section#best-sell-novel
+          .bg-light
+            .section__container.container
+              h3.section__title.text-center.text-uppercase
+                | Tiểu thuyết bán chạy
+
+              .card__container--book-sale.d-flex.justify-content-between.align-items-center
+
+                each saleBook in saleBooks
+                  .card__book-sale
+                    .card__img
+                      p.text-uppercase Sale!
+                      a(href=`/books/book/${saleBook.slug}`)
+                        img.book-img(src=`img/books/${saleBook.image}` alt=saleBook.name)
+                    .card__title.text-center= saleBook.name
+                    .card__price.d-flex.justify-content-center.align-items-center
+                      h5.card__price--current.text-green #{saleBook.price} đ
+                      p |
+                      p.card__price--discount
+                        del #{saleBook.priceDiscount} đ
+
+        //- SACH BAN CHAY TRONG THANG
+        section#best-sell-book
+          .section__container.container
+            h3.section__title.text-center.text-uppercase
+              | Sách bán chạy trong tháng
+
+            .card__container--book.d-flex.justify-content-between.align-items-center
+
+              each bestSellBook in bestSellBooks
+                .card__detail.card__detail--small 
+                  a(href=`/books/book/${bestSellBook.slug}`)
+                    img.book-img(src=`img/books/${bestSellBook.image}` alt=bestSellBook.name)
+
+
+        section#author
+          .bg-light
+            .section__container.container
+              h3.section__title.text-center.text-uppercase
+                | Những tác giả nổi bật
+              .card__container--author.d-flex.justify-content-between.align-items-center
+                .card__author
+                  img.author-img(src='img/authors/author-0.jpg' alt='Author')
+                  h5.card__name-author.text-center Kevin Feige
+                .card__author
+                  img.author-img(src='img/authors/author-1.jpg' alt='Author')
+                  h5.card__name-author.text-center Tony Stark
+                .card__author
+                  img.author-img(src='img/authors/author-2.jpeg' alt='Author')
+                  h5.card__name-author.text-center J. K. Rowling
+                .card__author
+                  img.author-img(src='img/authors/author-3.jpg' alt='Author')
+                  h5.card__name-author.text-center Tom Hanks
+
+
+        section#daily-news
+          .section__container.container
+            h3.section__title.text-center.text-uppercase
+              | Tin sách hay mỗi ngày
+            .cards-container.d-flex.justify-content-between.align-items-center
+              .card
+                .card__img-container
+                  img(src='img/covers/daily-news-1.jpg' alt='News 1')
+                  .date-container.d-flex.flex-column.justify-content-center.align-items-center
+                    p.date__day-month 22/12
+                    hr(width='100%')
+                    p.date__year 2015
+                .card__content.bg-light
+                  h6.card__title
+                    | 10 Lí do những người hay đọc sách dễ thành công
+                  p.card__description
+                    | Những người thành công vươn lên dẫn đầu vì họ đã dành thời
+                    | gian để đọc và học. Khi họ cầm một cuốn sách, họ không
+                    | phải chỉ đọc cho hết, mà còn rút ra bài học cho mình.
+              .card
+                .card__img-container
+                  img(src='img/covers/daily-news-2.jpg' alt='News 1')
+                  .date-container.d-flex.flex-column.justify-content-center.align-items-center
+                    p.date__day-month 22/12
+                    hr(width='100%')
+                    p.date__year 2015
+                .card__content.bg-light
+                  h6.card__title
+                    | 10 Lí do những người hay đọc sách dễ thành công
+                  p.card__description
+                    | Những người thành công vươn lên dẫn đầu vì họ đã dành thời
+                    | gian để đọc và học. Khi họ cầm một cuốn sách, họ không
+                    | phải chỉ đọc cho hết, mà còn rút ra bài học cho mình.

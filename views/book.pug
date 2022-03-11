@@ -1,0 +1,29 @@
+extend base
+
+block content
+  main
+    .main
+      div(class='main__container')
+        .book-detail--container.container
+
+          .book-detail--overview.d-flex.justify-content-start
+            div(class='book-detail__image--container')
+              img(src=`/img/books/${book.image}`, alt=book.name, class='book-detail__image')
+            div(class='book-detail--overview__content')
+              p(class='book-detail__name fw-bold fs-2')
+                | Tên truyện: #{book.name}
+              p(class='book-detail__author') Tác giả: #{book.author}
+              p(class='book-detail__publisher') Nhà xuất bản: #{book.publisher}
+              p(class='book-detail__price fs-4 text-green fw-bold')
+                | Giá:
+                span.price--discount.text-gray.fst-italic
+                  del  #{book.price} 
+                | #{book.priceDiscount} đ
+
+          .book-detail--description
+            h3(class='description__title') Mô tả
+            hr(class='description__line')
+            p(class='description__content')= book.description
+
+          form.form.form--order.d-flex.justify-content-center
+            a.btn.btn--order-book.d-flex.justify-content-center.align-items-center(href='#') Đặt sách ngay!

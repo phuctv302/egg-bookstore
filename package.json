@@ -1,0 +1,60 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Egg task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "NODE_ENV=development nodemon server.js",
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+  },
+  "author": "Tran Phuc",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "html-to-text": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.19",
+    "mongoose-simple-random": "^0.4.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.1",
+    "nodemailer": "^6.7.2",
+    "pug": "^3.0.2",
+    "sharp": "^0.30.2",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0",
+    "vietnamese-slug": "^1.1.4",
+    "win-node-env": "^0.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": "^16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuctv302/egg-bookstore.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/phuctv302/egg-bookstore/issues"
+  },
+  "homepage": "https://github.com/phuctv302/egg-bookstore#readme"
+}

@@ -1,0 +1,26 @@
+header
+  .header.bg-dark
+    .header__container.container.d-flex.justify-content-between.align-items-center
+
+      nav.nav.nav--account
+        if user
+          a.nav__el.nav__logout-btn Logout
+          a.nav__el(href='/my-profile')
+            img.nav__user-img(src=`/img/users/${user.photo}`, alt=user.name)
+            span Phuc
+        else
+          a.nav__login-btn(href='/login') Đăng nhập
+          a.nav__sign-up-btn(href='/signup') Đăng ký
+
+      a(href='/')
+        img.header__logo-img(src='/img/logo-green-round.png')
+
+      nav.nav.nav--link
+        a.nav__facebook-link.d-flex.justify-content-center.align-items-center(href='#')
+          i.fab.fa-facebook-f
+        a.nav__twitter-link.d-flex.justify-content-center.align-items-center(href='#')
+          i.fab.fa-twitter
+        a.nav__google-link.d-flex.justify-content-center.align-items-center(href='#')
+          i.fab.fa-google-plus-g
+        a.nav__youtube-link.d-flex.justify-content-center.align-items-center(href='#')
+          i.fab.fa-youtube

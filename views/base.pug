@@ -1,0 +1,76 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Egg Book Shop | #{title}
+    link(rel='shortcut icon' type='/image/png' href='/img/favicon.png')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous')
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js')
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css' rel='stylesheet' media='all')
+
+  body 
+
+    include _header
+
+    block content
+      h1 This is placeholder of content
+
+    main
+      .main__foot
+        .main__foot.bg-dark
+          .main__foot-container.container
+            .d-flex.justify-content-between
+              .main__foot__el
+                h4.main__foot__el-title Giúp đỡ
+                ul.main__foot__el-list
+                  li Hướng dẫn mua hàng
+                  hr
+                  li Hướng dẫn thanh toán
+                  hr
+                  li Phương thức vận chuyển
+                  hr
+                  li Câu hỏi thường gặp
+                  hr
+              .main__foot__el
+                h4.main__foot__el-title Chính sách
+                ul.main__foot__el-list
+                  li Chính sách đổi trả
+                  hr
+                  li Chính sách bảo mật
+                  hr
+                  li Điều khoản dịch vụ
+                  hr
+                  li Quy định sử dụng
+                  hr
+              .main__foot__el
+                h4.main__foot__el-title Tài khoản
+                ul.main__foot__el-list
+                  li Đăng nhập
+                  hr
+                  li Đăng ký
+                  hr
+                  li Thông tin tài khoản
+                  hr
+                  li Kiểm tra giỏ hàng
+                  hr
+              .main__foot__el
+                h4.main__foot__el-title Liên hệ
+                ul.main__foot__el-list
+                  li.d-flex
+                    i.fas.fa-map-marker-alt.text-green
+                    p
+                      | Tầng 4 - Toà nhà Hanoi Group, 442 Đội Cấn, Ba Đình, Hà
+                      | Nội
+                  li.d-flex
+                    i.fas.fa-phone.text-green
+                    p (04) 6674 2332 \n Thứ 2 - Chủ nhật: 9:00 - 18:00
+                  li.d-flex
+                    i.fas.fa-envelope.text-green
+                    p.text-green support@bizweb.vn
+
+    include _footer
+
+    link(rel='stylesheet' href='/style.css')
+    script(src="/js/bundle.js") 

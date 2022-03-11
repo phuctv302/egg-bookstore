@@ -1,0 +1,305 @@
+[
+  {
+    "_id": "5c88fa8cf4afda39709c2953",
+    "name": "One-Punch Man",
+    "image": "book-1.jpg",
+    "description": "One-Punch Man là loạt tác phẩm siêu anh hùng Nhật Bản xuất phát điểm là web manga do ONE tạo ra vào năm 2009. Nội dung của loạt manga xoay quanh một siêu anh hùng tên là Saitama, anh có khả năng đánh bại bất cứ đối thủ nào chỉ bằng một cú đấm.",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "author": "ONE, Murata Yusuke",
+    "price": 78000
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2952",
+    "name": "Doraemon, Nobita và Những bạn khủng long mới",
+    "image": "book-2.jpg",
+    "description": "Trong lúc đang tham gia hoạt động khảo cổ ở một cuộc triễn lãm khủng long, Nobita tình cờ tìm thấy một viên hóa thạch và cậu tin rằng đây là trứng khủng long. Nobita liền mượn bảo bối thần kỳ khăn trùm thời gian của Doraemon để giúp viên hóa thạch trở lại thời của chúng nhưng ngay sau đó, quả trứng liền nở ra một cặp khủng long song sinh. Ngạc nhiên hơn hết, đây lại là loài khủng long mới hoàn toàn và chưa từng được phát hiện.",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "author": "Fujiko Fujio",
+    "price": 280000
+  },
+  {
+    "_id": "61df66faf4a274b60472c665",
+    "name": "Thanh gươm diệt quỷ",
+    "image": "book-3.jpg",
+    "description": "Kimetsu no Yaiba là một bộ truyện tranh Nhật Bản của tác giả Gotōge Koyoharu. Bộ truyện tranh này đã được đăng theo kỳ trên Weekly Shōnen Jump từ số phát hành tháng 2 năm 2016 đến tháng 5 năm 2020 và sau đó các chương truyện được tổng hợp đưa vào 21 cuốn tankōbon",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "author": "Gotōge Koyoharu",
+    "category": "5c88fa8cf4afda39709c2955",
+    "price": 102000
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c295c",
+    "name": "Shin - Cậu bé bút chì",
+    "image": "book-4.jpg",
+    "description": "Crayon Shin-chan là một bộ manga Nhật Bản được sáng tác và minh họa Usui Yoshito sáng tác và minh họa. Nội dung kể xoay quanh cậu bé Shin với những câu chuyện về cuộc sống hàng ngày cùng với bố mẹ, em gái, chú chó Bạch Tuyết, bạn bè, hàng xóm, họ hàng thân quen và những nhân vật khác",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "author": "Shin-Ei Animation",
+    "registerUsers": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a24a02f8fb814b56fa193",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a24822f8fb814b56fa192",
+      "5c8a245f2f8fb814b56fa191"
+    ],
+    "category": "5c88fa8cf4afda39709c2955",
+    "price": 102000
+  },
+  {
+    "_id": "61df64edc094e860d76057ab",
+    "name": "Thần đồng Đất Việt",
+    "image": "book-5.jpg",
+    "description": "Thần đồng Đất Việt là một bộ truyện tranh thiếu nhi Việt Nam do họa sĩ Lê Linh sáng tác và phát hành bởi công ty Phan Thị cùng với sự phối hợp của nhà xuất bản Trẻ. Tập truyện đầu tiên mang tên Pháp sư gọi bưởi được phát hành ngày 16 tháng 2 năm 2002 cho đến tập 78 Âm mưu độc dược",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "author": "Lê Linh",
+    "registerUsers": [
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a24822f8fb814b56fa192",
+      "5c8a24282f8fb814b56fa18f",
+      "5c8a23de2f8fb814b56fa18e"
+    ],
+    "category": "5c88fa8cf4afda39709c2955",
+    "price": 120000
+  },
+  {
+    "_id": "61df66fa3909f44bb91ff4f4",
+    "name": "Nanatsu No Taizai - Thất Hình Đại Tội",
+    "image": "book-6.jpg",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "description": "“Thất đại ác nhân”, một nhóm chiến binh có tham vọng lật đổ vương quốc Britannia, được cho là đã bị tiêu diệt bởi các “hiệp sĩ thánh chiến” mặc dù vẫn còn 1 số người cho rằng họ vẫn còn sống.",
+    "author": "Suzuki Nakaba",
+    "registerUsers": ["5c8a201e2f8fb814b56fa186", "5c8a23de2f8fb814b56fa18e"],
+    "category": "5c88fa8cf4afda39709c2955",
+    "price": 120000
+  },
+  {
+    "_id": "61df66fa943be04c3151c7de",
+    "name": "Tokiro",
+    "image": "book-7.jpg",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "description": "Toriko (トリコ) là loạt manga được thực hiện bởi Shimabukuro Mitsutoshi. Tác phẩm đã đăng trên tạp chí Weekly Shōnen Jump từ ngày 19 tháng 5 năm 2008. Cốt truyện xoay quanh Toriko một thợ săn ẩm thực với sức mạnh phi thường cùng kiến thức rất rộng về thiên nhiên đang tìm kiếm những món ăn ngon nhất thế giới để thêm vào danh sách các món ăn trong bữa ăn để đời của mình.",
+    "author": "Shimabukuro Mitsutoshi",
+    "registerUsers": ["5c8a201e2f8fb814b56fa186", "5c8a24822f8fb814b56fa192"],
+    "category": "5c88fa8cf4afda39709c2955",
+    "price": 220000
+  },
+  {
+    "_id": "61df66fa6f1befd958bc3c24",
+    "name": "Người Trong Giang Hồ",
+    "image": "book-8.jpg",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "description": "Người Trong Giang Hồ là bộ truyện tranh nổi tiếng Cổ Hoặc Tử - Teddy Boy! Truyện đạt kỷ lục bộ truyện tranh dài nhất thế giới! Thế giới truyện rộng lớn, tình tiết ly kỳ, cao trào, nhiều nét đột phá, truyện tả thật thế giới xã hội đen Hongkong, mặt xấu ác lòng người, hiệp nghĩa can trường, huynh đệ tình thân…",
+    "author": "Ngưu Lão",
+    "registerUsers": ["5c8a201e2f8fb814b56fa186", "5c8a24282f8fb814b56fa18f"],
+    "category": "5c88fa8cf4afda39709c2955",
+    "price": 20000
+  },
+  {
+    "_id": "61df66fa155d32f2a68ab57a",
+    "name": "Kingdom - Vương Giả Thiên Hạ",
+    "image": "book-9.jpg",
+    "publisher": "Nhà xuất bản Kim Đồng",
+    "description": "Vương giả thiên hạ hay Kingdom trong tiếng Anh là một bộ truyện tranh Nhật Bản được sáng tác và minh họa bởi Hara Yasuhisa",
+    "author": "Hara Yasuhisa",
+    "registerUsers": ["5c8a23de2f8fb814b56fa18e"],
+    "category": "5c88fa8cf4afda39709c2955",
+    "price": 80000
+  },
+
+  {
+    "_id": "61df64f3373937ce2d1dcf88",
+    "name": "Mật mã Da Vinci",
+    "image": "book-11.jpg",
+    "description": "Mật mã Da Vinci là một tiểu thuyết của nhà văn người Mỹ Dan Brown được xuất bản năm 2003 bởi nhà xuất bản Doubleday Fiction. Đây là một trong số các quyển sách bán chạy nhất thế giới với trên 40 triệu quyển được bán ra, và đã được dịch ra 44 ngôn ngữ.",
+    "publisher": "Nhà xuất bản Doubleday Fiction",
+    "author": "Dan Brown",
+    "registerUsers": ["5c8a24282f8fb814b56fa18f", "5c8a23c82f8fb814b56fa18d"],
+    "category": "5c88fa8cf4afda39709c2951",
+    "price": 80000
+  },
+  {
+    "_id": "61df64f9abf2a830249ab62b",
+    "name": "Những cuộc phiêu lưu của Sherlock Holmes",
+    "image": "book-12.jpg",
+    "description": "The Adventures of Sherlock Holmes là tập hợp mười hai truyện ngắn của Arthur Conan Doyle, xuất bản lần đầu vào ngày 14 tháng 10 năm 1892. Nó chứa những truyện ngắn đầu tiên có thám tử tư vấn Sherlock Holmes, được xuất bản trong mười hai số của Tạp chí The Strand từ Tháng 7 năm 1891 đến tháng 6 năm 1892.",
+    "publisher": "Nhà Xuất Bản Ward Lock & Co",
+    "author": "Arthur Conan Doyle",
+    "registerUsers": [
+      "5c8a24282f8fb814b56fa18f",
+      "5c8a23c82f8fb814b56fa18d",
+      "5c8a23412f8fb814b56fa18c"
+    ],
+    "category": "5c88fa8cf4afda39709c2951",
+    "price": 90000
+  },
+  {
+    "_id": "61df66fa5d3bc083ef8698bb",
+    "name": "Án mạng trên chuyến tàu tốc hành Phương Đông",
+    "image": "book-13.jpg",
+    "description": "Án mạng trên chuyến tàu tốc hành Phương Đông là một tiểu thuyết hình sự của nhà văn Agatha Christie được nhà xuất bản Collins Crime Club phát hành lần đầu tại Anh ngày 1 tháng 1 năm 1934",
+    "publisher": "Nhà Xuất Bản Collins Crime Club",
+    "author": " Agatha Christie",
+    "registerUsers": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a23c82f8fb814b56fa18d",
+      "5c8a22c62f8fb814b56fa18b"
+    ],
+    "category": "5c88fa8cf4afda39709c2951",
+    "price": 86000
+  },
+  {
+    "_id": "61df66fa3de7fdb345fe921a",
+    "name": "Án mạng trên sông Nile",
+    "image": "book-14.jpg",
+    "description": "Án mạng trên sông Nile là một tiểu thuyết hình sự của nhà văn Agatha Christie được hãng Collins Crime Club xuất bản lần đầu tại Anh ngày 1 tháng 11 năm 1937. Tác phẩm nói về vụ án mạng xảy ra tại một con tàu du lịch trên sông Nile trong thời gian thám tử Hercule Poirot đi nghỉ ở Ai Cập.",
+    "publisher": "Nhà Xuất Bản Collins Crime Club",
+    "author": "Agatha Christie",
+    "registerUsers": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a23c82f8fb814b56fa18d",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a23de2f8fb814b56fa18e"
+    ],
+    "category": "5c88fa8cf4afda39709c2951",
+    "price": 134000
+  },
+  {
+    "_id": "61df66fa7fa913a05501229a",
+    "name": "Sự Im Lặng Của Bầy Cừu",
+    "image": "book-15.jpg",
+    "description": "The Silence of the Lambs là một tiểu thuyết kinh dị tâm lý của Thomas Harris. Được xuất bản lần đầu tiên vào năm 1988, đây là phần tiếp theo của cuốn tiểu thuyết Rồng Đỏ năm 1981 của Harris",
+    "publisher": "Nhà Xuất Bản Văn Học",
+    "author": "Thomas Harris",
+    "registerUsers": [
+      "5c8a24282f8fb814b56fa18f",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a23de2f8fb814b56fa18e"
+    ],
+    "category": "5c88fa8cf4afda39709c2951",
+    "price": 54000
+  },
+  {
+    "_id": "61df66fa3654e57e8a5bdc4f",
+    "name": "Án Tử Một Tình Yêu - The Death Of A Love",
+    "image": "book-16.jpg",
+    "description": "Một thiếu nữ mới hai mươi ba tuổi thế nhưng đã phải kết thúc cuộc đời tươi đẹp của mình, bước chân ngừng lại trong chốn lao tù… Vân Du đã giết hại hai mạng người, vừa vào Trại giam lại có định tự sát…",
+    "publisher": "Nhà Xuất Bản Trẻ",
+    "author": "Võ Anh Thơ",
+    "isVIP": true,
+    "category": "5c88fa8cf4afda39709c2951",
+    "registerUsers": ["5c8a21d02f8fb814b56fa189", "5c8a22c62f8fb814b56fa18b"],
+    "price": 45000
+  },
+  {
+    "_id": "61df66fa21f907977c55df70",
+    "name": "Vụ Bí Ẩn: Con Ngựa Không Đầu",
+    "image": "book-17.jpg",
+    "description": "Thưa các bạn đọc giả, đây là một câu chuyện phiêu lưu mới của Ba Thám Tử Trẻ, nhóm bạn năng động thích điều tra mà tôi luôn thích thú được kể cho các bạn nghe. Ba cậu vừa mới giải được một vụ bí ẩn vừa độc đáo vừa bổ ích. Tôi nghĩ câu chuyện đáng để các bạn quan tâm.",
+    "publisher": "Nhà Xuất Bản Trẻ",
+    "author": "Alfred Hitchcock",
+    "category": "5c88fa8cf4afda39709c2951",
+    "price": 66000
+  },
+
+  {
+    "_id": "61df66fa81ab9986c8272842",
+    "name": "Vụ Bí Ẩn: Vòng Tròn Thần Bí",
+    "image": "book-18.jpg",
+    "description": "Một trong những tác phẩm thuộc series “Vụ Bí Ẩn” của nhà văn trinh thám nổi tiếng Alfred Hitchcock.",
+    "publisher": "Nhà Xuất Bản Trẻ",
+    "author": "Alfred Hitchcock",
+    "category": "5c88fa8cf4afda39709c2951",
+    "price": 99000
+  },
+
+  {
+    "_id": "61df66fa8ad1bc078f6733d2",
+    "name": "Vụ Bí Ẩn: Bắt Cóc Cá Voi",
+    "image": "book-19.jpg",
+    "description": "Câu chuyện mà các bạn sắp đọc - tôi hy vọng rằng các bạn sẽ đọc - không có liên quan gì (hay hầu như không có) đến câu chuyện về vài người bạn của tôi: Ba Thám Tử Trẻ, là tên mà ba bạn này tự phong. Vậy tốt nhất là bắt đầu giới thiệu ba bạn này. ",
+    "publisher": "Nhà Xuất Bản Trẻ",
+    "author": "Alfred Hitchcock",
+    "category": "5c88fa8cf4afda39709c2951",
+    "price": 106000
+  },
+
+  {
+    "_id": "61df64e4bfb5f693acfbeab4",
+    "name": "Đắc nhân tâm",
+    "image": "book-21.jpg",
+    "description": "Đắc nhân tâm, tên tiếng Anh là How to Win Friends and Influence People là một quyển sách nhằm tự giúp bản thân bán chạy nhất từ trước đến nay. Quyển sách này do Dale Carnegie viết và đã được xuất bản lần đầu vào năm 1936, nó đã được bán 15 triệu bản trên khắp thế giới.",
+    "publisher": "Nhà Xuất Bản Simon and Schuster",
+    "author": "Dale Carnegie",
+    "registerUsers": [
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a23de2f8fb814b56fa18e",
+      "5c8a1ec62f8fb814b56fa183"
+    ],
+    "category": "5c88fa8cf4afda39709c295a",
+    "price": 10000
+  },
+  {
+    "_id": "61df66fad0d89493f1ef8834",
+    "name": "Đừng đi ăn một mình",
+    "image": "book-22.jpg",
+    "description": "Trong Đừng đi ăn một mình, Keith Ferrazzi, một doanh nhân thành đạt đồng thời là chuyên gia marketing sẽ tiết lộ cho chúng ta những bí quyết để thành công trong việc kết nối với mọi người. Tác giả tập trung xây dựng những mối quan hệ lâu dài thay vì chỉ trao đổi danh thiếp như nhiều người vẫn nghĩ về việc networking hiện nay. Tác giả tổng kết những phát hiện thông qua một hệ thống các phép thử.",
+    "publisher": "Nhà Xuất Bản Văn Học",
+    "author": "Keith Ferrazzi",
+    "registerUsers": [
+      "5c8a24282f8fb814b56fa18f",
+      "5c8a1dfa2f8fb814b56fa181",
+      "5c8a23de2f8fb814b56fa18e"
+    ],
+    "category": "5c88fa8cf4afda39709c295a",
+    "price": 100000
+  },
+  {
+    "_id": "61df66facd0a7056e46e5b72",
+    "name": "Tuổi trẻ đáng giá bao nhiêu?",
+    "image": "book-23.jpg",
+    "description": "Tuổi trẻ đáng giá bao nhiêu là cuốn sách không nặng nề giáo điều, không chỉ trích cực đoan, đơn giản chỉ là những tâm sự bình dị của người đi trước, Rosie Nguyễn mang đến cho bạn trẻ những tư tưởng tích cực nhất để mạnh mẽ bước chân vào đời.",
+    "publisher": "Nhà Xuất Bản Văn Học",
+    "author": "Rosie Nguyễn",
+    "registerUsers": [
+      "5c8a24282f8fb814b56fa18f",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a1f4e2f8fb814b56fa185"
+    ],
+    "category": "5c88fa8cf4afda39709c295a",
+    "price": 108000
+  },
+  {
+    "_id": "61df66fa1bced18e34079a51",
+    "name": "Suy nghĩ và làm giàu",
+    "image": "book-24.jpg",
+    "description": "Think and Grow Rich là cuốn sách được viết bởi Napoleon Hill vào năm 1937 và được quảng bá là một cuốn sách giúp phát triển cá nhân và tự lực bán chạy nhất thế giới. Ông nói rằng mình được truyền cảm hứng từ một lời gợi ý của doanh nhân và nhà bác ái Andrew Carnegie.",
+    "publisher": "Nhà Xuất Bản The Ralston Society",
+    "author": "Napoleon Hill",
+    "registerUsers": ["5c8a20d32f8fb814b56fa187", "5c8a211f2f8fb814b56fa188"],
+    "category": "5c88fa8cf4afda39709c295a",
+    "price": 110000
+  },
+  {
+    "_id": "61df66fa44a8a20f4ca054df",
+    "name": "Quẳng gánh lo đi và vui sống",
+    "image": "book-25.jpg",
+    "description": "Quẳng gánh lo đi và vui sống là một sách tự lực của tác giả người Mỹ Dale Carnegie, được viết vào năm 1948. Bản Việt Ngữ do Nguyễn Hiến Lê dịch năm 1955 tại Sài Gòn và đưa vào tủ sách Học làm người. Quyển sách này là một cẩm nang về cách làm việc và vui sống không bị lo âu.",
+    "publisher": "Nhà Xuất Bản Simon and Schuster",
+    "author": "Dale Carnegie",
+    "registerUsers": ["5c8a21d02f8fb814b56fa189"],
+    "category": "5c88fa8cf4afda39709c295a",
+    "price": 210000
+  },
+
+  {
+    "_id": "61df66fa5e6147a5b1fc0c31",
+    "name": "Nhà giả kim",
+    "image": "book-31.jpg",
+    "description": "Nhà giả kim là tiểu thuyết được xuất bản lần đầu ở Brasil năm 1988, và là cuốn sách nổi tiếng nhất của nhà văn Paulo Coelho. Tác phẩm đã được dịch ra 67 ngôn ngữ và bán ra tới 95 triệu bản, trở thành một trong những cuốn sách bán chạy nhất mọi thời đại.",
+    "publisher": "Nhà Xuất Bản Văn Học",
+    "author": "Paulo Coelho",
+    "registerUsers": ["5c8a23c82f8fb814b56fa18d"],
+    "category": "5c88fa8cf4afda39709c2961",
+    "price": 310000
+  }
+]
