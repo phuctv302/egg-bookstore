@@ -30,8 +30,7 @@
     "sharp": "^0.30.2",
     "slugify": "^1.6.5",
     "validator": "^13.7.0",
-    "vietnamese-slug": "^1.1.4",
-    "win-node-env": "^0.6.1"
+    "vietnamese-slug": "^1.1.4"
   },
   "devDependencies": {
     "eslint": "^8.9.0",
