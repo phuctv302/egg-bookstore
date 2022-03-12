@@ -774,3 +774,8 @@ a:hover {
 .alert--error {
   background-color: #eb4d4b;
 }
+
+/* ADDITIONAL CSS */
+.book-discount {
+  height: 620px;
+}
