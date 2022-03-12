@@ -25,13 +25,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 // LOG REQUEST DETAIL IN DEV ENV
 if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 
-app.use(compression());
-
 // BODY PARSER
 app.use(express.json());
 
 // COOKIE PARSER
 app.use(cookieParser());
+
+// COMPRESS ALL TEXT
+app.use(compression());
 
 /**
  * ROUTES
